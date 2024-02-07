@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: cornflowerblue;
+    align-items: center;
+}
+
+.search-contianer{
+    margin-right: 5px;
+}
+
+.heading-1{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+
+
+.input {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+
+}
+
+.aside {
+    display: flex;
+    background-color: antiquewhite;
+    width: 15vw;
+    height: 100%;
+    padding: 8px;
+}
+
+.main {
+    flex-direction: row;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+.main_Card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    height: 250px;
+    
+}
+.main_Card:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    height: 250px;
+    box-shadow: 0 5px 15px rgba(183, 181, 181, 0.8);
+}
+
+.img-container {
+    align-items: start;
+}
+
+.card-img-top {
+    max-width: 200px;
+
+}
+
+.card-body {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
